@@ -1,4 +1,3 @@
-import React from 'react';
 import GameManager from './components/GameManager';
 
 const App = () => {

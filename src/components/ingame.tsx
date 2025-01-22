@@ -8,7 +8,7 @@ interface IngameProps {
   
 const Ingame: React.FC<IngameProps> = ({ onNext, gameState }) => {
     const [secondsRemaining, setSecondsRemaining] = useState<number>(gameState.minutes * 60);
-  const [timerRunning, setTimerRunning] = useState<boolean>(true);
+  const [timerRunning, ] = useState<boolean>(true);
   const [isPopupVisible, setIsPopupVisible] = useState<boolean>(false);
 
   useEffect(() => {

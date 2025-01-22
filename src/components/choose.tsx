@@ -47,8 +47,8 @@ const Choose: React.FC<ChooseProps> = ({ onNext, gameState }) => {
     const [isPopupVisible, setIsPopupVisible] = useState<boolean>(false);
     const [selectedCard, setSelectedCard] = useState<number | null>(null);
     const [disabledCards, setDisabledCards] = useState<number[]>([]);
-    const [place, setPlace] = useState<string>(chooseWord());
-    const [spy, setSpy] = useState<number>(randomNumberInRange(0, players-1));
+    const [place, ] = useState<string>(chooseWord());
+    const [spy, ] = useState<number>(randomNumberInRange(0, players-1));
 
     const cards = Array.from({ length: players }, (_, index) => ({
         id: index + 1,
