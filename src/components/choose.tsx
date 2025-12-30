@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import '../styles/choose.css'
 
-const luoghi = [
+/*const luoghi = [
   "Bagno", "Cucina", "Soggiorno", "Camera Da Letto", "Garage", "Giardino", "Parco", "Scuola", "Ufficio", 
   "Negozio", "Biblioteca", "Ospedale", "Cinema", "Palestra", "Stazione", "Aeroporto", "Museo", "Ristorante", 
   "Chiesa", "Supermercato", "Farmacia", "Teatro", "Banca", "Bar", "Stadio", "Spiaggia", "Montagna", "Fiume", 
@@ -35,7 +35,7 @@ const luoghi = [
   "Piazza del Mercato", "Piazza San Marco", "Mercato Contadino", "Trattoria Locale", "Centro di Terapia", "Biblioteca Comunale", 
   "Galleria di Moda", "Centro di Fitness", "Pizzeria", "Corte", "Stabilimento", "Giardino delle Rose", "Frutteto", "Picnic", 
   "Casa di Riposo", "Stazione Spaziale Internazionale", "Osservatorio della Natura", "Corridoio", "Fermata Taxi", "Sala Lettura"
-];
+];*/
 
 const oggetti = [
   "Telefono","Sedia","Tavolo","Bicchiere","Forchetta","Coltello","Cucchiaio","Piatto","Bottiglia","Tazza",
