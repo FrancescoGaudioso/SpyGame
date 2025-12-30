@@ -36,6 +36,35 @@ const luoghi = [
   "Galleria di Moda", "Centro di Fitness", "Pizzeria", "Corte", "Stabilimento", "Giardino delle Rose", "Frutteto", "Picnic", 
   "Casa di Riposo", "Stazione Spaziale Internazionale", "Osservatorio della Natura", "Corridoio", "Fermata Taxi", "Sala Lettura"
 ];
+
+const oggetti = [
+  "Telefono","Sedia","Tavolo","Bicchiere","Forchetta","Coltello","Cucchiaio","Piatto","Bottiglia","Tazza",
+  "Computer","Mouse","Tastiera","Monitor","Lampada","Libro","Quaderno","Penna","Matita","Evidenziatore",
+  "Gomma","Zaino","Valigia","Portafoglio","Orologio","Bracciale","Anello","Occhiali","Chiave",
+  "Portachiavi","Cuscino","Coperta","Lenzuolo","Cassetto","Armadio","Specchio","Spazzolino","Dentifricio","Asciugamano",
+  "Sapone","Shampoo","Phon","Rasoio","Pettine","Spugna","Secchio","Scopa","Paletta","Straccio",
+  "Lavatrice","Asciugatrice","Ferro da stiro","Stendino","Cestino","Sacchetto","Borsa","Busta","Scatola","Nastro adesivo",
+  "Colla","Forbici","Righello","Calcolatrice","Agenda","Post-it","Stampante","Carta","Busta da lettera","Francobollo",
+  "Sedia a rotelle","Termometro","Mascherina","Guanto","Cerotto","Benda","Cuscinetto","Siringa giocattolo","Pallone","Palla",
+  "Racchetta","Corda","Pesetto","Tappetino","Bicicletta","Casco","Catena","Campanello","Pompa","Zappa",
+  "Annaffiatoio","Vaso","Semi","Terriccio","Cesoie","Tagliaerba","Innaffiatrice","Carriola","Rastrello","Guanti da giardino",
+  "Trapano","Cacciavite","Martello","Chiodo","Vite","Chiave inglese","Metro","Livella","Sega","Colla a caldo",
+  "Pittura","Pennello","Rullo","Carta vetrata","Telo","Scala","Lampadina","Presa","Ciabatta elettrica","Batteria",
+  "Telecomando","Antenna","Cuffie","Altoparlante","Microfono","Webcam","Power bank","Caricatore","Cavo USB","Hard disk",
+  "Pen drive","Fotocamera","Treppiede","Scheda di memoria","Binocolo","Ombrello","Cappello","Cintura","Sciarpa","Guanti",
+  "Scarpe","Stivali","Calzini","Maglietta","Felpa","Giacca","Pantaloni","Gonna","Abito","Cappotto",
+  "Frigorifero","Freezer","Forno","Fornello","Microonde","Tostapane","Frullatore","Impastatrice","Pentola","Padella",
+  "Coperchio","Colapasta","Tagliere","Mestolo","Frusta","Apriscatole","Spremiagrumi","Bilancia da cucina","Timer","Ciotola",
+  "Scatoletta","Barattolo","Spezie","Olio","Sale","Pepe","Zucchero","Farina","Riso","Pasta",
+  "Zuppiera","Caraffa","Bottiglia termica","Ghiaccio sintetico","Termos","Borsa frigo","Contenitore","Pellicola","Alluminio","Carta forno",
+  "Album","Cornice","Fotografia","Quadro","Poster","Calendario","Mappa","Globo","Giocattolo","Bambola",
+  "Macchinina","Puzzle","Costruzioni","Dado","Carte","Scacchiera","Libro illustrato","Colori","Pennarello","Pastelli",
+  "Temperamatite","Elastico","Graffetta","Puntina","Spillatrice","Spilli","Astuccio","Porta penne","Rubinetto","Doccetta",
+  "Sapone liquido","Dispenser","Cestino per la carta","Zerbino","Campanello","Citofono","Maniglia","Serratura","Tappeto","Ventilatore",
+  "Climatizzatore","Termosifone","Sveglia","Radio","Registratore","Agenda elettronica","Tablet","E-reader","Console","Joystick",
+  "Stampella","Gancio","Copriwater","Spazzolone","Secchiello","Candela","Fiammiferi"
+];
+
   
   
 
@@ -46,7 +75,7 @@ interface ChooseProps {
   }
 
   const chooseWord = () => {
-    const word = luoghi[randomNumberInRange(0,luoghi.length-1)]
+    const word = oggetti[randomNumberInRange(0,oggetti.length-1)]
     return word.charAt(0).toUpperCase() + word.slice(1)
   }
   
